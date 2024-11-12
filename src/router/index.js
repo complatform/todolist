@@ -4,13 +4,13 @@ import TodoList from '../views/Todo/TodoList.vue'
 
 
 const routes = [
+  // {
+  //   path: '/',
+  //   name: 'home',
+  //   component: HomeView
+  // },
   {
     path: '/',
-    name: 'home',
-    component: HomeView
-  },
-  {
-    path: '/todo',
     name: 'TodoList',
     component: TodoList
   },
