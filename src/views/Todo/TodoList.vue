@@ -81,7 +81,7 @@ export default {
     return {
       taskList: {
         tasks: "",
-        date: null,
+        date: new Date(),
         isComplated: false,
       },
       taskID: 1,
